@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Sriracha&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+
+html {
+	scroll-behavior: smooth;
+}
+
+.container {
+
+	background: rgb(254, 60, 92);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 30px;
+	padding: 10px;
+	position: fixed;
+	left: 0;
+	right: 0;
+
+}
+
+.container .port {
+	font-family: 'Sriracha', cursive;
+	font-size: 30px;
+
+
+}
+
+.container .port h1 {
+	font-family: 'Sriracha', cursive;
+}
+
+.container .port p {
+	font-size: 20px;
+}
+
+.home {
+
+	height: 100vh;
+	background: url('me.jpg');
+	background-size: cover;
+
+}
+
+.home .ph {
+	color: white;
+	padding-top: 200px;
+	font-size: 30px;
+	padding-left: 30px;
+	align-items: center;
+
+}
+
+
+nav a {
+	margin-inline: 20px;
+	text-align: center;
+	font-size: 10px;
+	text-decoration: none;
+	color: aliceblue;
+
+}
+
+nav a:hover {
+	color: rgb(138, 240, 153);
+	transition: 0.3s;
+}
+
+.home img {
+
+	height: auto;
+	width: 100%;
+	background-size: cover;
+
+}
+
+.about .image img {
+	width: auto;
+	height: 400px;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+
+.about {
+
+	display: flex;
+	justify-content: space-between;
+
+}
+
+@media screen and (max-width:700px) {
+
+	.about {
+		display: block;
+		text-align: center;
+	}
+
+}
+
+.paragraph p {
+	margin: 40px;
+	font-size: 20pxs;
+
+}
+
+.me {
+	font-size: 30px;
+	margin-bottom: 30px;
+	padding-top: 30px;
+
+}
+
+.services {
+	padding: 10px;
+	margin-top: 20px;
+	background-color: black;
+	padding: 50px;
+
+
+}
+
+@media screen and (max-width:700px) {
+
+	.services {
+		display: block;
+		text-align: center;
+	}
+
+}
+
+.services .container-2 {
+
+	gap: 20px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+
+}
+
+.services .card {
+
+
+	width: 250px;
+	color: white;
+	text-align: center;
+	padding: 50px;
+	background-color: rgb(29, 28, 26);
+	border: 1px solid white;
+	transition: all 0.3s ease;
+
+
+}
+
+.pro {
+	padding-bottom: 30px;
+	color: white;
+
+}
+
+.services .card .card1 i {
+	font-size: 30px;
+	margin-bottom: 20px;
+	color: rgb(198, 44, 44);
+	transition: all 0.3s ease;
+}
+
+
+
+.services .card:hover {
+
+	background-color: rgb(182, 53, 75);
+}
+
+.services .card:hover i {
+
+	color: white;
+
+}
+
+.container-3 {
+	padding: 50px;
+
+
+}
+
+.container-3 .content {
+	display: flex;
+	justify-content: space-between;
+
+
+
+}
+
+.container-3 .content .paragraph {
+
+	width: 50%;
+}
+
+.container-3 .content .percentage {
+	width: 50%;
+
+}
+
+.container-3 .content .subject {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.container-3 .percent div {
+	height: 4px;
+	border: 1px solid black;
+	background-color: crimson;
+}
+
+.container-3 .percent .html {
+
+	width: 90%;
+}
+
+.container-3 .percent .css {
+	width: 60%;
+
+}
+
+.container-3 .percent .javascript {
+	width: 80%;
+
+}
+
+.container-3 .percent .php {
+	width: 50%;
+
+}
+
+.container-3 .percent .mysql {
+	width: 70%;
+
+}
+
+
+#teams{
+
+	background-color: black;
+	padding: 30px;
+	color: white;
+
+}
+
+.card-container {
+	
+	display: flex;
+	justify-content: center;
+	gap:20px;
+	flex-wrap: wrap;
+	padding: 50px;
+}
+
+.card-container .member {
+
+	color: white;
+	background-color: rgb(30, 15, 15);
+	width: 350px;
+	min-height: 250px;
+}
+
+.card-container .card {
+
+	color: white;
+	background-color: rgb(30, 15, 15);
+	width:calc(100% / 3 - 20px);
+	padding: 20px;
+	box-sizing: border-box;
+	min-height: 250px;
+	border: 2px solid transparent;
+	transition: all 0.3s ease;
+
+}
+
+.card-container .card:hover {
+
+	border-color: white;
+	background: crimson;
+
+}
+
+.card-container .card .image {
+
+	text-align: center;
+
+}
+
+.card-container .card .image img {
+
+	border-radius: 50%;
+	border: 3px solid crimson;
+	transition: all 0.3s ease;
+
+}
+
+
+.card-container .card:hover img {
+
+	border-color: white;
+
+}
+
+.card-container .card .content {
+	margin-top: 5px;
+	text-align: center;
+
+}
+
+.card-container .card .content h1 {
+
+	font-size: 25px;
+	font-weight: 600;
+	text-transform: uppercase;
+
+}
+
+
+.card-container .member:hover {
+	background-color: crimson;
+	transition: all 0.3s;
+}
+
+
+
+.card-container .member .person {
+	padding: 20px;
+
+}
+
+.card-container .member .person .image img {
+	border-radius: 50%;
+	border: 3px solid crimson;
+	object-fit: fit-content;
+
+}
+
+.card-container .member:hover img {
+	border-color: whitesmoke;
+}
+
+
+
+.contacts {
+	padding-top: 50px;
+
+}
+
+.contacts .touch {
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+}
+
+.contacts .touch .git {
+	width: 50%;
+	margin-bottom: 10px;
+
+}
+
+.contacts .touch .form {
+	width: 50%;
+	margin-top: 30px;
+}
+
+.toop i {
+	font-size: 30px;
+	color: crimson;
+
+}
+
+.toop {
+	display: flex;
+	margin: 20px;
+}
+
+.toop-2 {
+	font-size: 8px;
+	margin-left: 10px;
+}
+
+.form{
+
+	display:flex;
+	flex-direction: column;
+	row-gap:10px;
+
+}
+
+.form .two-input{
+
+	display:flex;
+	column-gap:10px;
+
+}
+
+.form input , .form textarea{
+
+	width:100%;
+	height:40px;
+	padding-inline:10px;
+
+}
+
+.form textarea{
+
+	height:100px;
+	resize: none;
+
+}
+.form .two-input input{
+
+	width:50%;
+
+}
+
+
+.form .message-1 input {
+	width: 55%;
+	padding-left: 10px;
+
+}
+
+.form .message-2 input {
+	height: 40px;
+	padding-bottom: 20px;
+	width: 55%;
+
+}
+
+.form .message-2 button {
+	width: 70px;
+	border-radius: 10px;
+	background-color: crimson;
+	padding: 5px;
+	border: 2px solid rgb(182, 58, 58)
+}
+
+.form .message-2 button:hover {
+	background-color: white;
+	color: black;
+
+}
+
+.hire {
+	background-color: crimson;
+	padding: 10px 20px 10px 20px;
+	font: 20px;
+	border-radius: 10px;
+
+
+
+}
+
+.hire:hover {
+	background-color: black;
+	transition: all 0.3s;
+	border: 2px solid crimson;
+	color: white;
+}
+
+/* media query starts here */
+@media screen and (max-width:885px){
+
+	.card-container .card{
+
+		width:calc(100% / 2 - 20px);
+
+	}
+
+}
+
+@media screen and (max-width:600px){
+
+
+	.card-container .card{
+
+		width:100%;
+
+	}
+
+}
